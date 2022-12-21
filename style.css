@@ -12,41 +12,41 @@ Source: https://jqueryui.com/droppable/
 #droppable { width: 150px; height: 150px; padding: 0.5em; margin: 10px; }
 
 body {
-    background-image: url('/graphics_data/wood.jpg');
+    background-image: url('graphics_data/wood.jpg');
   }
 
   #scrabbleBoard {
     background-repeat: no-repeat, repeat;
     background-position: center; 
-    background-image: url('/graphics_data/scrabble-tile-holder.png');
+    background-image: url('graphics_data/scrabble-tile-holder.png');
   }
 
 
 #space1 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_blank.png');
+  background-image: url('graphics_data/board_blank.png');
 }
 #space2 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_blank.png');
+  background-image: url('graphics_data/board_blank.png');
 }
 #space3 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_double.png');
+  background-image: url('graphics_data/board_double.png');
 }
 #space4 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_blank.png');
+  background-image: url('graphics_data/board_blank.png');
 }
 #space5 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_blank.png');
+  background-image: url('graphics_data/board_blank.png');
 }
 #space6 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_double.png');
+  background-image: url('graphics_data/board_double.png');
 }
 #space7 {
   Width: 73px; height: 74px;
-  background-image: url('/graphics_data/board_blank.png');
+  background-image: url('graphics_data/board_blank.png');
 }
