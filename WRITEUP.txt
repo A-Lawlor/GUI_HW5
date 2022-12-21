@@ -1,0 +1,51 @@
+Anthony Lawlor
+Email: Anthony_Lawlor@student.uml.edu
+
+•4) letter tiles in the player’s “hand” are selected randomly from a data structure with the proper distribution of the letters (code!)
+
+	Working it using a random number generating function and placing them the rack for the user
+
+
+• (4) letter tiles can be dragged-and-dropped onto target Scrabble squares
+
+	Working but because I used droppable instead of sortable it can be kinda weird sometimes and might required a restart of the browser.
+
+• (4) program identifies which letter tile is dropped onto which Scrabble square
+
+	Working the tile is placed into a array that is then parsed into a string
+
+• (4) board includes at least two bonus squares
+
+	Yes the board contains two double word squares that make the value of the tile multiply itself by two.
+
+• (4) score is tallied correctly, including consideration of bonus square multipliers
+
+	Yes it is tallied correctly and is display in the top of the window and also saves the highest word score generated 
+
+• (3) any number of words can be played until the player wishes to quit or depletes all tiles
+
+	Yes it is working and is tracked but not displayed to the user.
+
+• (3) the board is cleared after each round so that a new word can be played
+
+	Yes the board is cleared on a restart or on clear rack but keeps the remaining tiles on submit word 
+
+• (3) after playing a word, only the number of letter tiles needed to bring the player’s “hand” back to 7 tiles are selected
+
+	Yes working on submit tiles.
+
+• (3) score is kept for multiple words until the user restart a new game (implement next vs. restart)
+
+	Yes working.
+• (2) Tiles can only be dragged from the “rack” to Scrabble board. If the user drop them anywhere else, they will be bounced back to the “rack”.
+
+	Yes but is glitchy with keeping score if you drag a tile away from the scrabble board and it bounces back the score for that letter might not be counted have to be precise.
+
+• (2) Once the tile is placed on the Scrabble board, it can be moved back to the “rack”.
+
+	Yes it can.
+
+• (2) Except for the first letter, all sub-subsequent letters must be placed directly next to or below another letter with no space. Else, they will bounce back to the “rack”.
+	No not working I once again think I would need to implement a sortable board to make this feature easier
+• (2) user can always restart the game.
+	Yes wit the restart Game button.

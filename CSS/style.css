@@ -1,0 +1,52 @@
+/*
+Copyright Anthony Lawlor
+Email: Anthony_Lawlor@student.uml.edu
+*/
+
+
+/*
+Creates the styling for the draggable and droppable elements
+Source: https://jqueryui.com/droppable/
+*/
+#draggable { width: 100px; height: 100px; padding: 0.5em; margin: -10px -10px -10px 0; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; margin: 10px; }
+
+body {
+    background-image: url('/graphics_data/wood.jpg');
+  }
+
+  #scrabbleBoard {
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-image: url('/graphics_data/scrabble-tile-holder.png');
+  }
+
+
+#space1 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_blank.png');
+}
+#space2 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_blank.png');
+}
+#space3 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_double.png');
+}
+#space4 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_blank.png');
+}
+#space5 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_blank.png');
+}
+#space6 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_double.png');
+}
+#space7 {
+  Width: 73px; height: 74px;
+  background-image: url('/graphics_data/board_blank.png');
+}
